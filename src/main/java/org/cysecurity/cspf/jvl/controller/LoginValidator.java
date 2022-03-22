@@ -60,19 +60,19 @@ public class LoginValidator extends HttpServlet {
          						
                                    if(rs != null && rs.next()){
                                    
-                                   HttpSession session=request.getSession();
-                                   session.setAttribute("isLoggedIn", "1");
-                                   session.setAttribute("userid", rs.getString("id"));
-                                   session.setAttribute("user", rs.getString("username"));
-                                   session.setAttribute("avatar", rs.getString("avatar"));
-                                    
-                                   //String id = StringEscapeUtils.escapeHtml4(rs.getString("id"));
-                                   //String dbusername = StringEscapeUtils.escapeHtml4(rs.getString("username"));
-                                   //String avatar = StringEscapeUtils.escapeHtml4(rs.getString("avatar"));
+                                   //HttpSession session=request.getSession();
                                    //session.setAttribute("isLoggedIn", "1");
-                                   //session.setAttribute("userid", id);
-                                   //session.setAttribute("user", dbusername);
-                                   //session.setAttribute("avatar", avatar); 
+                                   //session.setAttribute("userid", rs.getString("id"));
+                                   //session.setAttribute("user", rs.getString("username"));
+                                   //session.setAttribute("avatar", rs.getString("avatar"));
+                                    
+                                   String id = StringEscapeUtils.escapeHtml4(rs.getString("id"));
+                                   String dbusername = StringEscapeUtils.escapeHtml4(rs.getString("username"));
+                                   String avatar = StringEscapeUtils.escapeHtml4(rs.getString("avatar"));
+                                   session.setAttribute("isLoggedIn", "1");
+                                   session.setAttribute("userid", id);
+                                   session.setAttribute("user", dbusername);
+                                   session.setAttribute("avatar", avatar); 
                                     
                                    Cookie privilege=new Cookie("privilege","user");
                                    response.addCookie(privilege);
