@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="5px" height="10px" viewBox="0 0 5 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-sys-arrowleft-nomal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统图标" transform="translate(-331.000000, -36.000000)" fill="#66757F">
+            <g id="Nomal" transform="translate(118.000000, 33.000000)">
+                <g id="icons-sys-arrowleft-nomal" transform="translate(213.000000, 3.000000)">
+                    <g id="Group-2">
+                        <path d="M1.56290189,5 L4.80967174,8.72530922 C5.06338333,9.01641521 5.06420937,9.48744347 4.80754768,9.78193437 C4.552663,10.0743863 4.13574468,10.070177 3.88665267,9.7843715 L0.190328255,5.54324814 C0.0598840611,5.39357786 -0.00371143958,5.19634626 0.000167235744,5 C-0.00371143958,4.80365374 0.0598840611,4.60642214 0.190328255,4.45675186 L3.88665267,0.215628503 C4.13574468,-0.070177017 4.552663,-0.0743863374 4.80754768,0.218065634 C5.06420937,0.512556526 5.06338333,0.983584795 4.80967174,1.27469078 L1.56290189,5 L1.56290189,5 Z" id="左"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
