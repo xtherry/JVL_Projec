@@ -1,0 +1,22 @@
+{
+  "name": "npm-example-dr",
+  "version": "1.0.0",
+  "description": "check downstream remediation",
+  "main": "app.js",
+  "scripts": {
+    "test": "node .\\app.js"
+  },
+  "dependencies":{
+  "marked": "0.3.9",
+  "mongodb": "2.2.36"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "chenshov"
+  ],
+  "author": "chenshov",
+  "license": "UNLICENSED"
+}
